@@ -1,0 +1,159 @@
+<!-- CSS only -->
+
+<!-- breadcrumb-section -->
+<div class="breadcrumb-section breadcrumb-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <div class="breadcrumb-text">
+          <p>Chi tiết sản phẩm</p>
+          <h1>{{TENSP}}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end breadcrumb section -->
+
+<!-- page content ends -->
+
+<!-- single product -->
+<div class="single-product mt-150 mb-150">
+
+  <div class="container">
+    <div class="TTL">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb has-arrow">
+          <li class="breadcrumb-item">
+            <a href="#">Trang Chủ</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">Chi Tiết</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page" style="color: black;">{{TENSP}}</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="single-product-img">
+          <img src="{{PrdImgPath}}{{IMAGE}}" alt="">
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="single-product-content">
+          <h3 class="TENSP">{{TENSP}}</h3>
+          <div class="single-product-pricing"><s>{{GIANHAP}}</s>
+            <p>{{GIABAN}}</p>
+          </div>
+          <div class="single-product-form">
+            <form action="index.html">
+              <input type="number" placeholder="0">
+            </form>
+            <a (click)="addToCart()" class="cart-btn_LU">Thêm vào giỏ </a>
+          </div>
+          <h4>Chia sẻ:</h4>
+          <ul class="product-share">
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <img class="ACT" src="assets/img/ATC/ACT.png" alt="">
+        </div>
+      </div>
+    </div>
+    <hr class="GN">
+  </div>
+</div>
+
+<!-- end single product -->
+<div class="product-section mt-150 mb-150">
+  <div class="container">
+    <div class="row">
+      <h1 class="TTL1">{{TENSP}}</h1>
+      <p role="tabpanel" id="description">
+        {{MOTA}}
+      </p>
+    </div>
+  </div>
+</div>
+<!-- product section -->
+<div class="product-section mt-150 mb-150">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <div class="section-title">
+          <h3>Sản phẩm <span class="orange-text">tương tự
+            </span></h3>
+          <p>NHÃN HÀNG SỐ 1 ĐƯỢC CÁC CHUYÊN DA CHĂM SÓC DA KHUYÊN DÙNG TRÊN TOÀN THẾ GIỚI</p>
+        </div>
+      </div>
+      <img class="ABC1"
+        src="https://www.dermaclub.com.vn/dw/image/v2/BFZM_PRD/on/demandware.static/-/Sites-acd-vn-ng-Library/vi_VN/dw7ee50dc8/SIS%20LRP/11.10.2022.jpg?sw=2000&sh=556&sm=cut&q=70"
+        alt="">
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 text-center">
+        <div class="single-product-item">
+          <div class="product-image">
+            <a href="single-product.html"><img
+                src="https://product.hstatic.net/200000017272/product/drytouch_3_5d61f972fb3d47e28d0d884d39d30778_1024x1024.jpg"
+                alt=""></a>
+          </div>
+          <a href="">
+            <h3>Kem chống nắng cho da dầu Dry Touch SP50+ 50ml</h3>
+          </a>
+          <p class="product-price"><span><s>515,000₫</s></span> 489,000₫</p>
+          <a href="cart.html" class="cart-btn-L"> Thêm vào giỏ hàng</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <div class="single-product-item">
+          <div class="product-image">
+            <a href="single-product.html"><img
+                src="https://product.hstatic.net/200000017272/product/3433422406728_be98897df893416b8ba524abce62e7e3_1024x1024.png"
+                alt=""></a>
+          </div>
+          <a href="">
+            <h3>Xịt khoáng giúp làm sạch & làm dịu da Serozinc 150ml</h3>
+          </a>
+          <p class="product-price"><span> <s>325,000₫
+              </s></span> 309,000₫ </p>
+          <a href="cart.html" class="cart-btn-L"> Thêm vào giỏ hàng</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 offset-md-3 offset-lg-0 text-center">
+        <div class="single-product-item">
+          <div class="product-image">
+            <a href="single-product.html"><img
+                src="https://product.hstatic.net/200000017272/product/3337875660570_5c993878d4ee4a3b943e3fe787e8ad57_1024x1024.png"
+                alt=""></a>
+          </div>
+          <a href="">
+            <h3>Dưỡng chất cải thiện & làm sáng da Vitamin C10 30ml</h3>
+          </a>
+          <p class="product-price"><span><s>1,300,000₫</s>
+            </span> 1,289,000₫</p>
+          <a href="cart.html" class="cart-btn-L"> Thêm vào giỏ hàng</a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <div class="single-product-item">
+          <div class="product-image">
+            <a href="single-product.html"><img
+                src="https://product.hstatic.net/200000017272/product/3337872411991_b75cb01dafef48f096faf51a2ff11248_1024x1024.png"
+                alt=""></a>
+          </div>
+          <a href="">
+            <h3>Effaclar Gel rửa mặt cho da dầu mụn nhạy cảm 400ml</h3>
+          </a>
+          <p class="product-price"><span> <s>
+                560,000₫</s> </span> 529,000₫ </p>
+          <a href="cart.html" class="cart-btn-L"> Thêm vào giỏ hàng</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end product section -->

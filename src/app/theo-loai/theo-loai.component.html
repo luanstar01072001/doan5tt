@@ -1,0 +1,37 @@
+<!-- advertisement section -->
+
+<!-- end advertisement section -->
+<!-- features list section -->
+
+<!-- product section -->
+<div class="product-section mt-150 mb-150" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="product-filters">
+          <ul>
+
+                <li class="active" data-filter="*" *ngFor="let item of dsLoaiSP"><a
+                  (click)="locSP1(item.IDLOAI)">{{item.TENLOAI}}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 text-center" *ngFor="let item of items">
+        <div class="single-product-item">
+          <div class="product-image">
+            <a href="single-product.html"><img src="{{urlHinhanh}}{{item.IMAGE}}" alt=""></a>
+          </div>
+          <a href="">
+            <h3>{{item.TENSP}}</h3>
+          </a>
+          <p class="product-price"><span> <s>{{item.GIANHAP | currency:'₫ ':'symbol':'1.0'}}
+              </s></span>{{item.GIABAN | currency:'₫ ':'symbol':'1.0'}}</p>
+          <a (click)="addToCart(item)" class="cart-btn-L"> Thêm vào giỏ hàng</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end product section -->

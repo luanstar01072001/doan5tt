@@ -1,0 +1,171 @@
+
+<!-- breadcrumb-section -->
+<div class="breadcrumb-section breadcrumb-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <div class="breadcrumb-text">
+          <h1>Giỏ hàng của bạn hiện có:</h1> <br>
+          <p *ngFor="let item of products">
+            {{item.TENSP}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- end breadcrumb section -->
+
+<!-- cart -->
+<div class="cart-section mt-150 mb-150">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12">
+        <div class="cart-table-wrap">
+          <table class="cart-table">
+            <thead class="cart-table-head">
+              <tr class="table-head-row">
+                <th class="product-remove"></th>
+                <th class="product-image">Ảnh</th>
+                <th class="product-name">Tên</th>
+                <th class="product-price">Đơn giá</th>
+                <th class="product-quantity">Số lượng</th>
+                <th class="product-total">Tổng</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-body-row" *ngFor="let item of products">
+                <td class="cart__close">
+                  <p (click)="deleteProduct(item.SanPhamID)" class="icon_close"><span class="material-symbols-rounded">
+                      do_not_disturb_on
+                    </span></p>
+                </td>
+
+                <td class="product-image"><img src="{{prdPhotoPath}}{{item.IMAGE}}" alt=""></td>
+                <td class="product-name">{{item.TENSP}}</td>
+                <td class="product-price">{{item.GIABAN | currency : 'đ ' : 'symbol' : '1.0-0' }}
+                </td>
+                <td class="product-quantity">
+                  <span class="dec qtybtn" (click)="updateProduct(item.SanPhamID,item.Quantity-1)">-</span>
+
+                  <input type="text" value="{{item.Quantity}}" placeholder="0" disabled="disabled">
+                  <span class="inc qtybtn" (click)="updateProduct(item.SanPhamID,item.Quantity+1)">+</span>
+
+                </td>
+                <td class="product-total"> {{item.GIABAN * item.Quantity | currency : 'đ ' : 'symbol' : '1.0-0'}} </td>
+              </tr>
+              <!-- <tr class="table-body-row">
+                <td class="product-remove"><a href="#"><span class="material-symbols-rounded">
+                      do_not_disturb_on
+                    </span></a></td>
+                <td class="product-image"><img src="assets/img/products/product-img-2.jpg" alt=""></td>
+                <td class="product-name">Berry</td>
+                <td class="product-price">$70</td>
+                <td class="product-quantity"><input type="number" placeholder="0"></td>
+                <td class="product-total">1</td>
+              </tr>
+              <tr class="table-body-row">
+                <td class="product-remove"><a href="#"><span class="material-symbols-rounded">
+                      do_not_disturb_on
+                    </span></a></td>
+                <td class="product-image"><img src="assets/img/products/product-img-3.jpg" alt=""></td>
+                <td class="product-name">Lemon</td>
+                <td class="product-price">$35</td>
+                <td class="product-quantity"><input type="number" placeholder="0"></td>
+                <td class="product-total">1</td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="total-section">
+          <table class="total-table">
+            <thead class="total-table-head">
+              <tr class="table-total-row">
+                <th>Danh mục</th>
+                <th>Đơn giá</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="total-data">
+                <td><strong>Tổng phụ: </strong></td>
+                <td>{{totalMoney | currency : 'đ ' : 'symbol' : '1.0-0' }}</td>
+              </tr>
+              <tr class="total-data">
+                <td><strong>Vận chuyển: </strong></td>
+                <td>$45</td>
+              </tr>
+              <tr class="total-data">
+                <td><strong>Tổng: </strong></td>
+                <td>$545</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="cart-buttons">
+            <a href="cart.html" class="boxed-btn">Cập nhật</a>
+            <a onclick="payNow()"class="boxed-btn black">Thanh toán</a>
+          </div>
+        </div>
+
+        <div class="coupon-section">
+          <h3>Mã giảm giá</h3>
+          <div class="coupon-form-wrap">
+            <form action="index.html">
+              <p><input type="text" placeholder=""></p>
+              <p><input type="submit" value="Nhập mã"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end cart -->
+<hr>
+
+<!-- Shop Cart Section End -->
+<div class="shopper-informations" id="canPay">
+	<div class="row">
+		<div class="col-sm-6">
+			<div class="shopper-info">
+				<p>Nhập thông tin giao hàng</p>
+                <div class="form-group">
+                    <label for="fullname">Họ tên người nhận</label>
+                    <input [(ngModel)]="FullName" type="text" name="fullname" id="fullname" placeholder="Full name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="phonenumber">Số điện thoại</label>
+                    <input placeholder="Số điện thoại" name="phonenumber" [(ngModel)]="Phone" class="form-control" id="phonenumber">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="Address">Địa chỉ</label>
+                    <input type="text" id="Address" placeholder="Địa chỉ giao hàng" name="Address" [(ngModel)]="Address" class="form-control">
+                </div>
+					<div class="row">
+						<div class="form-group col-md-6">
+							<label for="payment">Tiền mặt
+								<input type="radio" name="pttt" id="payment" checked>
+							</label>
+						</div>
+						<div class="form-group col-md-6" title="Hiện chúng tôi chưa hỗ trợ thanh toán qua TKNH">
+							<label for="payment1">Tài khoản ngân hàng
+								<input type="radio" name="pttt" id="payment1" disabled="disabled">
+							</label>
+						</div>
+						<button class="col-md-12 btn btn-primary align-center" (click)="letOrder()">
+							Hoàn tất
+						</button>
+					</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+            <div class="form-group">
+                <label for="notes">Ghi chú</label>
+                <textarea id="focusItem" name="notes" class="form-control" [(ngModel)]="Notes" placeholder="Lưu ý với của hàng" cols="70" rows="13"></textarea>
+            </div>
+		</div>
+	</div>
+</div>

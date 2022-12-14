@@ -1,0 +1,576 @@
+.ABNTT {
+  position: relative;
+}
+
+h2.TTTT1 {
+  position: absolute;
+  top: 66px;
+  left: 67px;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 2px 1px 2px #a6a6a6;
+}
+
+.TTLK {
+  position: absolute;
+  top: 145px;
+  left: 67px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #009ee4;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.TTTT2 {
+  position: absolute;
+  top: 65px;
+  right: 50px;
+  color: white;
+  font-family: LocatorRegular, sans-serif;
+}
+
+.ABNTT1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*////////////////////////////Sữa rửa mặt///////////////////////////////////////*/
+.ABNSRM {
+  position: relative;
+}
+
+h2.SRM1 {
+  position: absolute;
+  top: 66px;
+  left: 67px;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 2px 1px 2px #a6a6a6;
+}
+
+.SRM2 {
+  position: absolute;
+  top: 145px;
+  left: 67px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #009ee4;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.SRM3 {
+  position: absolute;
+  top: 80px;
+  right: 72px;
+  color: white;
+  font-family: LocatorRegular, sans-serif;
+}
+
+.ABNSRM1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+
+/*////////////////////////////Tẩy tế bào chết///////////////////////////////////////*/
+.ABNTTBC {
+  position: relative;
+}
+
+h2.TTBC {
+  position: absolute;
+  top: 66px;
+  left: 67px;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 2px 1px 2px #a6a6a6;
+}
+
+.TTBC1 {
+  position: absolute;
+  top: 200px;
+  left: 67px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #009ee4;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.TTBC2 {
+  position: absolute;
+  top: 80px;
+  right: 72px;
+  color: white;
+  font-family: LocatorRegular, sans-serif;
+}
+
+.ABNTTBC1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*////////////////////////////Tẩy tế bào chết///////////////////////////////////////*/
+.ABNXK {
+  position: relative;
+}
+
+h2.XK {
+  position: absolute;
+  top: 66px;
+  left: 67px;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 2px 1px 2px #a6a6a6;
+}
+
+.XK1 {
+  position: absolute;
+  top: 142px;
+  left: 67px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #009ee4;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.XK2 {
+  position: absolute;
+  top: 97px;
+  right: 133px;
+  color: white;
+  font-family: LocatorRegular, sans-serif;
+}
+
+.ABNXK1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*////////////////////////////Toner///////////////////////////////////////*/
+.ABNTN {
+  position: relative;
+}
+
+h2.TN {
+  position: absolute;
+  top: 66px;
+  left: 67px;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 2px 1px 2px #a6a6a6;
+}
+
+.TN1 {
+  position: absolute;
+  top: 142px;
+  left: 67px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #009ee4;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.TN2 {
+  position: absolute;
+  top: 97px;
+  right: 82px;
+  color: white;
+  font-family: LocatorRegular, sans-serif;
+}
+
+.ABNTN1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*////////////////////////////Serum///////////////////////////////////////*/
+.ABNSR {
+  position: relative;
+}
+
+h2.SR {
+  position: absolute;
+  top: 66px;
+  left: 67px;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 2px 1px 2px #a6a6a6;
+}
+
+.SR1 {
+  position: absolute;
+  top: 142px;
+  left: 67px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #009ee4;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.SR2 {
+  position: absolute;
+  top: 74px;
+  right: 72px;
+  color: white;
+  font-family: LocatorRegular, sans-serif;
+}
+
+.ABNSR1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*////////////////////////////Kem dưỡng giảm mụn///////////////////////////////////////*/
+.ABNKDGM {
+  position: relative;
+}
+
+h2.KDGM {
+  position: absolute;
+  top: 36px;
+  right: 33px;
+  color: white;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 3px 2px 3px #545454;
+}
+
+.KDGM1 {
+  position: absolute;
+  top: 167px;
+  right: 37px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.KDGM2 {
+  position: absolute;
+  top: 101px;
+  right: 38px;
+  color: white;
+  text-align: end;
+  font-family: LocatorRegular, sans-serif;
+  text-shadow: 2px 1px 2px #545454;
+}
+
+.ABNKDGM1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*////////////////////////////Kem dưỡng ///////////////////////////////////////*/
+.ABNKD {
+  position: relative;
+}
+
+h2.KD {
+  position: absolute;
+  top: 36px;
+  right: 89px;
+  color: white;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 3px 2px 3px #545454;
+}
+
+.KD1 {
+  position: absolute;
+  top: 192px;
+  right: 249px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.KD2 {
+  position: absolute;
+  top: 101px;
+  right: 38px;
+  color: white;
+  /* text-align: end; */
+  font-family: LocatorRegular, sans-serif;
+  text-shadow: 2px 1px 2px #545454;
+}
+
+.ABNKD1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*////////////////////////////Chống nắng ///////////////////////////////////////*/
+.ABNCN {
+  position: relative;
+}
+
+h2.CN {
+  position: absolute;
+  top: 36px;
+  right: 64px;
+  color: white;
+  font-size: 50px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 3px 2px 3px #545454;
+}
+
+.CN1 {
+  position: absolute;
+  top: 117px;
+  right: 375px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+p.CN2 {
+  position: absolute;
+  top: 76px;
+  left: 38px;
+  color: black;
+  text-shadow: 2px 1px 2px #a6a6a6;
+  font-family: LocatorRegular, sans-serif;
+}
+
+.ABNCN1 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+/*/////////////////////////////Sanrphaamr bác chạy*/
+.ABNTTSPBC {
+  position: relative;
+}
+
+.TTLK2 {
+  position: absolute;
+  top: 145px;
+  left: 43px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: #009ee4;
+  color: white;
+  padding: 10px 20px;
+  --elevation: 4;
+
+}
+
+.ABNTT2 {
+
+  border-radius: 3px;
+  position: relative;
+  bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*/////////////////////////////////*/
+
+.shop-banner1 {
+  position: relative;
+  background-color: white;
+  background-image: url(https://www.laroche-posay.us/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-us-Library/default/dw0b693593/pages/VIRTUAL%20SKINCARE%20SERVICES/My-Routine-AI-HP-Banner-Desktop-2000x550-La-Roche-Posay.jpg?sw=1998&sh=550&sm=cut&sfrm=jpg&q=70);
+  background-size: cover;
+  padding: 57px 0px 84px;
+  margin-bottom: 80px;
+}
+
+.shop-banner1 h3 {
+  position: relative;
+  left: -140px;
+  font-size: 45px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+.shop-banner1 .sale-percent {
+  position: relative;
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+}
+
+.shop-banner1 .sale-percent span {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.1em;
+  color: #051922;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+span.orange-text-L2 {
+  color: white;
+}
+
+.shop-banner1 a {
+  position: relative;
+  left: -138px;
+}
+
+
+/*/////////////////////////////////*/
+
+.shop-banner2 {
+  position: relative;
+  background-color: white;
+  background-image: url(https://www.laroche-posay.us/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-us-Library/default/dw5c9cfc55/images/homepage/la-roche-posay-skincare-routine-finder-desktop.jpg?sw=1998&sh=550&sm=cut&sfrm=jpg&q=70);
+  background-size: cover;
+  padding: 57px 0px 84px;
+  margin-bottom: 80px;
+}
+
+.shop-banner2 h3 {
+  position: relative;
+  left: -140px;
+  font-size: 45px;
+
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+.shop-banner2 .sale-percent {
+  position: relative;
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+}
+
+.shop-banner2 .sale-percent span {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.1em;
+  color: #051922;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+span.orange-text-L2 {
+  color: white;
+}
+
+.shop-banner2 a {
+  position: relative;
+  left: -138px;
+}
+
+/*/////////////////////////////////*/
+
+.shop-banner3 {
+  position: relative;
+  background-color: white;
+  background-image: url(https://www.laroche-posay.us/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lrp-us-Library/default/dw5b64ff61/images/homepage/la-roche-posay-free-sunscreen-sample-desktop-hp-btf-banner-2000x550-right.jpg?sw=2000&sh=550&sm=cut&sfrm=jpg&q=70);
+  background-size: cover;
+  padding: 57px 0px 84px;
+  margin-bottom: 80px;
+}
+
+.shop-banner3 h3 {
+  position: relative;
+  left: 500px;
+  font-size: 45px;
+  color: white;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+.shop-banner3 .sale-percent {
+  position: relative;
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+}
+
+.shop-banner3 .sale-percent span {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.1em;
+  color: #051922;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+span.orange-text-L2 {
+  color: white;
+}
+
+.shop-banner3 a {
+  position: relative;
+  left: 506px;
+}

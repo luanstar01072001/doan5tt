@@ -1,0 +1,44 @@
+input[type="text"] {
+  width: 45px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: none;
+  --elevation: 4;
+
+}
+th.product-name {
+  width: 5cm;
+}
+span.dec.qtybtn {
+  padding-top: 5px;
+  font-family: 'Poppins', sans-serif;
+    background-color: #009ee4;
+    color: white;
+    --elevation: 4;
+
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+span.inc.qtybtn {
+  padding-top: 5px;
+  font-family: 'Poppins', sans-serif;
+    background-color: #009ee4;
+    color: white;
+    --elevation: 4;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+span.material-symbols-rounded {
+  cursor: pointer;
+}
+.breadcrumb-text p {
+  color: white;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 1px;
+}
